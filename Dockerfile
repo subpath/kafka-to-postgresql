@@ -1,4 +1,8 @@
 FROM python:3.7
 WORKDIR /project
 ADD . /project
-RUN pip install -r requirements.txt
+RUN  apt-get update\
+    && apt-get install libsnappy-dev -y \
+    && pip install -r requirements.txt
+
+CMD ["python", "kafka-to-postgresql.py"]

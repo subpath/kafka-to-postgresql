@@ -1,0 +1,12 @@
+[kafka_connector]
+broker = "localhost:9092"
+topic = "networkai"
+consumer_group = "networkai"
+
+[psql_connector]
+host = "localhost"
+port = "5432"
+database = "logs"
+password = "4DevOnly"
+user = "dev"
+table = "access"

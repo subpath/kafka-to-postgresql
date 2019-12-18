@@ -1,0 +1,15 @@
+{
+    "time_local": "04/Dec/2019:11:46:44 +0000",
+    "path": "/test104",
+    "ip": "192.168.48.1",
+    "time": "2019-12-04T11:46:44+00:00",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:70.0) Gecko/20100101 Firefox/70.0",
+    "user_id_got": "uid=020019ACCD5FDA5D06009A6702030303",
+    "user_id_set": "-",
+    "remote_user": "-",
+    "request": "GET /test104 HTTP/1.1",
+    "status": "404",
+    "body_bytes_sent": "153",
+    "request_time": "0.000",
+    "http_referrer": "-"
+}

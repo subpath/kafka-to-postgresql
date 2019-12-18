@@ -11,7 +11,6 @@ import toml
 import pandas as pd
 
 # project
-from postgres_connector import initialize_schema
 from create_engine import engine
 
 CONFIG = toml.load('config.toml')

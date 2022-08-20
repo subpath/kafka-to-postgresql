@@ -1,5 +1,5 @@
 kazoo==2.5.0
-numpy==1.17.4
+numpy==1.22.0
 pandas==0.25.3
 psycopg2-binary==2.8.4
 pykafka==2.8.0
